@@ -1,6 +1,6 @@
 # HTML知识点整理
 
-* [HTML相关文章收集](./artilces.md)
+* [HTML相关文章收集](./articles.md)
 * [HTML学习网站](./websites.md)
 * [HTML书籍推荐](./books.md)
 
