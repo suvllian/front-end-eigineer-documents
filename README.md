@@ -1,14 +1,31 @@
-# front-end-eigineer-documents
+## 前端知识体系（zh-ch）
 
-## 前端学习总结：HTML、CSS、Javascript、其他基础知识
+### 一、前端编程开发
 
-## HTML
+#### 编程语言
+* [HTML/HTML5](./HTML/)
+* [CSS/CSS3/Sass/Less](./CSS)
+* [Javascript](./Javascript)
+* ECMAscript5/ECMAscript6
+* 开发工具
 
-### 一、[1 - 50](./HTML/1-50.md)
-* 1、移动Web前端viewport解析
-* 2、浏览器的标准模式（standards mode）和怪异模式（quirks mode）
-* 3、link标签和@import标签的区别
+### 二、前端理论知识
 
-## CSS
+* 前端安全
+* 前端缓存机制
+* 前端性能优化
+* 前端跨域
 
-## Javascript
+### 三、前端类库框架
+
+* Bootstrap
+* jQuery
+* React
+* Vue
+* angularjs
+
+### 四、后端理论知识
+
+### 五、计算机理论知识
+
+### 六、软技能
