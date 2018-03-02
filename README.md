@@ -40,8 +40,8 @@
 * git/github
 * svn
 
-### 二、[前端理论知识](./fornt-end-theory/)
-* [前端缓存机制](./fornt-end-theory/storage.md)
+### 二、[前端理论知识](./front-end-theory/)
+* [前端缓存机制](./front-end-theory/storage.md)
 * 前端性能优化
 * 前端跨域
 * 前端安全
