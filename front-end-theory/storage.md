@@ -28,6 +28,7 @@ HTTP Header控制：
 | no-store | --- |
 
 ##### 3、Last-modified/If-Modified-Since
+
 ##### 4、Etag/If-None-match
 
 Etag解决last-modified的问题：
