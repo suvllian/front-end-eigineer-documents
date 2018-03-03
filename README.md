@@ -42,9 +42,9 @@
 
 ### 二、[前端理论知识](./front-end-theory/)
 * [前端缓存机制](./front-end-theory/storage.md)
-* 前端性能优化
-* 前端跨域
-* 前端安全
+* [前端性能优化](./front-end-theory/optimise.md)
+* [前端跨域](./front-end-theory/cross-domain.md)
+* [前端安全](./front-end-theory/security.md)
 * 函数式编程
 * MVC/MVVM/MVP设计模式
 * 前端模块化
