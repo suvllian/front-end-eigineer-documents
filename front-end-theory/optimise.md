@@ -70,7 +70,7 @@ iframe的开销比较大
 尝试将GIF图片格式转换PNG格式或其他更节省空间的格式。  
 不恰当的图像格式是一种减慢加载速度的罪魁祸首。  正确的图片格式可以让图片缩小数倍，可以减少带宽。
 #### 29、不要再HTML中缩放图像
-<img width=”100″ height=”100″ src=”mycat.jpg” alt=”My Cat” />
+<img width=”100″ height=”100″ src=”https://avatars1.githubusercontent.com/u/18010304?s=40&v=4” alt=”My picture” />
 图像的大小就应该是100px*100px。
 #### 30、favicon.ico要小且可以缓存
 尽量小于1K
