@@ -1,12 +1,11 @@
-# HTML知识点整理
+# CSS知识点整理
 
-* [HTML相关文章收集](./articles.md)
-* [HTML学习网站](./websites.md)
-* [HTML书籍推荐](./books.md)
+* [CSS相关文章收集](./articles.md)
+* [CSS学习网站](./websites.md)
+* [CSS书籍推荐](./books.md)
 
 ## 1、盒子模型是什么？标准盒子模型与怪异盒子模型是什么？
-**盒子模型**  
-包括边距、边框和内容。  
+**盒子模型**：包括边距、边框和内容。  
 margin：边框外的区域，外边距透明。  
 border：在内边距和内容外的框。  
 padding：内容外的区域。  
@@ -14,9 +13,9 @@ content：盒子的内容。
 
 **标准盒子模型：**  
 元素总高度 = 元素高度 + margin上下边距    
-元素总宽度 = 元素宽度 + margin
-元素宽度 = content + padding左右边距 + border左右高度  
-元素高度 = content + padding上下边距 + border上下高度
+元素总宽度 = 元素宽度 + margin   
+元素宽度 = content + padding左右边距 + border左右高度   
+元素高度 = content + padding上下边距 + border上下高度   
 
 **怪异盒子模型：**  
 元素总高度 = 元素高度 + padding上下边距 + border上下高度 + margin上下边距   
@@ -31,9 +30,22 @@ box-sizing: content-box | border-box | inherit;
 
 ## 2、清除浮动
 
-## 3、BFC
+* **使用clear属性**：将浮动元素设为`clear:both;`或`clear: left;`活`clear:right;`
+* **使用overflow属性**：将浮动元素设为`overflow:hidden;`，可以清除浮动。
+* **给父元素设置BFC**
 
-## 4、常见布局
+## 3、浏览器如何匹配CSS
+浏览器会先产生一个元素集合，这个集合往往由最后一个部分的索引产生。然后向左匹配，如果不匹配就把元素从集合中删除，直到选择器匹配完成。
+
+**example:**
+```  
+.top .second p { font-size: 18px; }
+```
+浏览器会先匹配所有的p标签集合，然后再匹配所有class位second的p标签集合，最后匹配所有class为top的p标签集合。再将样式添加到匹配上的p标签集合上。
+
+## 4、BFC
+
+## 5、常见布局
 
 ### 4.1 左边定宽，右边自适应
 
