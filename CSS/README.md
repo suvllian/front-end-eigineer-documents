@@ -44,6 +44,22 @@ box-sizing: content-box | border-box | inherit;
 浏览器会先匹配所有的p标签集合，然后再匹配所有class位second的p标签集合，最后匹配所有class为top的p标签集合。再将样式添加到匹配上的p标签集合上。
 
 ## 4、BFC
+`BFC`：块级格式化上下文  
+
+**BFC布局规则：**
+* 内部的盒子会在垂直方向，一个接一个的放置。
+* 垂直方向的距离由margin决定，同一个BFC内的两个盒子的margin会发生重叠。
+* BFC是页面上一个隔离的独立容器，容器里的子元素不会影响到外面的元素。
+* BFC的区域不会和float box重叠。
+* 每个元素的margin box的左边与包含块的border box的左边相接触。
+
+**会生成BFC的元素：**
+* 根元素
+* float不为node
+* position为absolute或fixed
+* display为inline-block、table-cell、table-caption、flex、inline-flex
+* overflow不为visible
+
 
 ## 5、常见布局
 
