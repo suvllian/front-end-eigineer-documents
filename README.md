@@ -16,6 +16,7 @@
   * 作用域/闭包
   * 正则表达式
   * 严格模式
+* TypeScript
 
 #### 开发构建工具
 * Webpack
@@ -40,7 +41,13 @@
 * git/github
 * svn
 
-### 二、[前端理论知识](./front-end-theory/)
+### 二、前端类库框架
+* React、Vue、Angularjs
+* Bootstrap
+* jQuery、Axios、requirejs、seajs
+* React Native、Weex、小程序
+
+### 三、[前端理论知识](./front-end-theory/)
 * [前端缓存机制](./front-end-theory/storage.md)
 * [前端性能优化](./front-end-theory/optimise.md)
 * [前端跨域](./front-end-theory/cross-domain.md)
@@ -50,26 +57,31 @@
 * 前端模块化
 * PWA/WebAssembly/GraphQL
 
-### 三、前端类库框架
-* Bootstrap
-* jQuery
-* React
-* Vue
-* angularjs
-* requirejs/seajs
-
-### 四、后端理论知识
+### 四、后端编程开发
 * Node.js
-* PHP
+* Java
 * Python
+* Go
+* PHP
+* C++
+
+### 五、后端框架
+* Node：Express、Koa
+* PHP：Laravel、Think PHP
+
+### 六、后端理论知识
 * [服务器](./back-end-theory/server.md)
 
-### 五、计算机理论知识
-* HTTP
-* TCP/IP
-* 设计模式
-* 面向对象编程
-* 算法
-* 数据结构
+### 七、数据库
+* 关系型数据库：Mysql
+* 非关系型数据库：MongoDb
+* 缓存数据库：redis
 
-### 六、软技能
+### 八、计算机理论知识
+* 计算机网络：TCP/IP、HTTP
+* 操作系统（Linux）
+* 面向对象编程、面向函数编程
+* 设计模式
+* 算法和数据结构
+
+### 九、软技能
