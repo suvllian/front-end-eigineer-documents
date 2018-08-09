@@ -16,6 +16,8 @@
 
 **分类**：反射型XSS、存储型XSS、DOM XSS。
 
+---
+
 ### 1.反射型XSS
 一般通过将恶意脚本代码作为参数放在URL中传递，当URL被奠基石，恶意代码就会被解析执行。
 
@@ -25,9 +27,11 @@
 
 **防范方法**：
 * Web页面渲染的内容和数据都来自服务器。
-* 不要从URL、document.referrer、document.forms等API中获取数据直接渲染。
+* 不要从URL、document.referer、document.forms等API中获取数据直接渲染。
 * 不要使用eval、document.write\document.writeln等可以执行字符串的方法。
 * 对涉及DOM渲染的方法传入的字符串参数进行**转义处理**。
+
+---
 
 ### 2.存储型XSS
 存储型的XSS常见于一些表单提交功能中，如论坛留言区，攻击者将恶意代码提交，存储在数据库中，其他用户访问页面时，如果获取到这段代码，就会被渲染执行。不需要诱骗被攻击者点击，但是需要同时满足以下几个条件：
@@ -44,6 +48,8 @@
 * 前端在渲染数据前要进行转义处理。
 * cookie设置为httpOnly，js不能获取和操作cookie。
 
+---
+
 ### 3.DOM型XSS
 现在很多浏览器和开源库针对XSS都进行了转义处理，默认防止大多数XSS攻击，但是还是有方式绕过转义规则。JavaScript支持unicode、escapes、十六进制、八进制等编码形式。可利用编码进行XSS攻击。
 
@@ -53,12 +59,73 @@
 * 指定`<meta charset="utf-8">`
 * XML中要指定字符集位utf-8，标签也要闭合。
 
+---
 
-## CSRF
-跨站请求伪造
+### HTML特殊字符
+在HTML中，一些字符串具有特殊的意义，在输出前应该将这些字符串进行转义，让浏览器将他们当成普通字符进行处理。如`<script>`转义成`&lt;script&gt;`，这段字符串就会在浏览器中正常显示。
 
-防范：
-1、校验http refer  
-2、使用token校验请求。
+``` javascript
+el.innerHTML = escapeHTML(title.value);
 
-## DNS劫持
+function encodeHTML (a) {
+  return String(a)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#39;");
+};
+```
+
+常见的需要转义的字符有：
+
+``` javascript
+" --> &#34;
+# --> &#35;
+$ --> &#36;
+& --> &#38;
+' --> &#39;
+( --> &#40;
+) --> &#41;
+; --> &#59;
+< --> &#60;
+> --> &#62;
+```
+更详细的列表参见：[html转义字符](https://ascii.cl/htmlcodes.htm)
+
+举一个例子：  
+在发送`GET`请求或`formData`格式的`POST`请求时，如果请求参数重带有`&`符号，请求参数就会被错误的分割，所以需要将`&`转义成`&#38;`。
+
+---
+
+### encodeURI和encodeURIComponent
+以前服务端不支持`unicod`编码的时候，前端传递请求参数前需要对参数进行转义。
+
+如将`http://suvllian.com?p=测试`转义成`http://suvllian.com?p=%E6%B5%8B%E8%AF%95`。  
+这时可以使用浏览器提供的`encodeURI`方法进行转移，但是`encodeURI`方法不会转义`:`, `/`, `?`, `&`, `=`这些在URL中有特殊含义的字符。
+
+``` javascript
+encodeURI('http://suvllian.com?link=http://suvllian.com')
+
+"http://suvllian.com?link=http://suvllian.com"
+```
+
+如果URL参数中包含这些字符，可以使用`encodeURIComponent`方法进行转义。
+
+``` javascript
+const param = encodeURIComponent('http://suvllian.com');
+
+encodeURI('http://suvllian.com/p?name=测试&from=') + param
+
+"http://suvllian.com/p?name=%E6%B5%8B%E8%AF%95&from=http%3A%2F%2Fsuvllian.com"
+```
+
+总结来说，`encodeURI`用于对整个URL进行转义，`encodeURIComponent`用于对参数进行转义。
+
+
+
+## 二、CSRF
+
+## 三、URL跳转
+
+## 四、DNS劫持
