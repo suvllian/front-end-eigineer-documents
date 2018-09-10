@@ -38,23 +38,26 @@ Enter same passphrase again: [Type passphrase again]
 这个时候git clone下载一个私有仓库，再将代码push到远程仓库，就不用再输入任何账户密码了。
 如果你只需要配置一个Git账户，工作到此结束！
 
-## 配置config
+## 多用户配置
 如果需要配置多账户的话，重复执行上述操作，注意要重新输入SSH key的名称。
+这时候有个问题：当我们使用git命令时，默认使用~/.ssh/id_rsa，新建的key如何使用？  
+回想一下，SSH都是根据你输入的git账户去生成的。所以只要在对应的代码仓库中配置`user.email`和`user.name`就可以了。   
 
-这时候有个问题：当我们使用git命令时，默认使用~/.ssh/id_rsa，新建的key如何使用？   
-这时候就需要配置一个config文件。
+我在电脑上配置了一个全局的config，这个SSH key对应的是公司的gitlab，是我日常都会用到的。然后我自己的github偶尔会写点东西，只需要在对应的代码仓库单独配置`user.email`和`user.name`即可。
 
-在~/.ssh/config文件中写入：
+**配置全局config：**
+
 ```
-Host github
-    HostName github.com
-    User suvllian
-    IdentityFile ~/.ssh/id_rsa_suvllian
-Host github-default
-    HostName gitlab.XXX.com
-    User qingsong.sqs
-    IdentityFile ~/.ssh/id_rsa
+git config --global user.name "suvllian"
+git config --global user.email "suvlliansong@163.com"
 ```
 
+**指定代码仓库配置config：**
 
-## 代码仓库配置user信息
+```
+git config user.name "suvllian"
+git config user.email "suvlliansong@163.com"
+```
+
+配置完成之后，未经单独配置的代码仓库都是全局账户，经过单独配置的代码仓库使用的都是你所配置的仓库。  
+这样就可以使用多账户了。
