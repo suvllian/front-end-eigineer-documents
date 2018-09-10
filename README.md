@@ -37,8 +37,8 @@
 * webstorm
 * vscode
 
-#### 版本管理
-* git/github
+#### [版本管理](./Version)
+* [git](./Version/Git)/github
 * svn
 
 ### 二、[前端类库框架](./Frame)
