@@ -52,6 +52,7 @@
 * [前端性能优化](./front-end-theory/optimise.md)
 * [前端跨域](./front-end-theory/cross-domain.md)
 * [前端安全](./front-end-theory/security.md)
+* [前端工程化](./front-end-theory/engineering.md)
 * 函数式编程
 * MVC/MVVM/MVP设计模式
 * 前端模块化
