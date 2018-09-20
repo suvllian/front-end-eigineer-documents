@@ -66,7 +66,7 @@
 
 <div align=center>
 
-![infa](./imgs/wechat-mini-program/architecture.jpeg)
+![infa](./../imgs/wechat-mini-program/architecture.jpeg)
 
 </div>
 
@@ -74,7 +74,7 @@
 
 <div align=center>
 
-![infa](./imgs/wechat-mini-program/4.jpeg)
+![infa](./../imgs/wechat-mini-program/4.jpeg)
 
 </div>
 
@@ -83,7 +83,7 @@
 
 <div align=center>
 
-![infa](./imgs/wechat-mini-program/5.jpeg)
+![infa](./../imgs/wechat-mini-program/5.jpeg)
 
 </div>
 
