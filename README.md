@@ -32,11 +32,11 @@
 * 移动端
   * React Native
   * Weex
-  * [小程序](./Frame/wechat-mini-program.md)
+  * [小程序](./Frame/wechat-mini-program)
 
 * Node框架
   * Express
-  * koa
+  * [koa](./Frame/Koa)
 
 ## [理论知识](./Theory/)
 * [前端缓存机制](./Theory/storage.md)
