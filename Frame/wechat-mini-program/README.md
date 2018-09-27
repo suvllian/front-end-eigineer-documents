@@ -1,7 +1,7 @@
 ## 微信小程序
 
 ### 个人总结
-* [小程序初体验](./index.md)
+* [小程序初体验](./first-blood.md)
 
 ### 文档
 * [小程序开发文档](https://developers.weixin.qq.com/miniprogram/dev/index.html)
