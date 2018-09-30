@@ -37,3 +37,7 @@ NodeJs快速发展，开发出了许多工具提升前端开发效率。
 * [部署](./deploy.md)
 * [性能](#)
 * [监控](#)
+
+### 前端工程化产品
+* <a href="http://fis.baidu.com/" target="_blank">百度FIS</a>
+
