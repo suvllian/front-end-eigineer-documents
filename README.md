@@ -50,6 +50,7 @@
 * PWA/WebAssembly/GraphQL
 
 ## [前端杂谈](./Nothing)
+* [2018前端发展方向](./2018-front-end-development.md)
 
 ## [开发工具](./Tools)
 * 构建工具
@@ -74,7 +75,6 @@
 * [版本管理](./Tools/Version)
   * [git](./Tools/Version/Git)/github
   * svn
-
 
 ## [后端相关](./BackEnd/)
 * [Apache服务器配置](./BackEnd/server.md)
