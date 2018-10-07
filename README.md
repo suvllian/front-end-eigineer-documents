@@ -73,8 +73,8 @@
   * vscode
 
 * [版本管理](./Tools/Version)
-  * [git](./Tools/Version/Git)/github
+  * git/github
   * svn
 
 ## [后端相关](./BackEnd/)
-* [Apache服务器配置](./BackEnd/server.md)
+* Linux下Apache服务器配置

@@ -1,5 +1,6 @@
 ## 2018年前端发展方向
-![front-end-route](./imgs/front-end-route.png)
+<img src="./imgs/front-end-route.png" width="300">
+
 ### 1.Node
 * 标准化运维治理
 * 一体化插件体系
