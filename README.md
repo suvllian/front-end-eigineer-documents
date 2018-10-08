@@ -49,9 +49,6 @@
 * 前端模块化
 * PWA/WebAssembly/GraphQL
 
-## [前端杂谈](./Nothing)
-* [2018前端发展方向](./Nothing/2018-front-end-development.md)
-
 ## [开发工具](./Tools)
 * 构建工具
   * Webpack
@@ -75,6 +72,9 @@
 * [版本管理](./Tools/Version)
   * git/github
   * svn
+
+## [前端杂谈](./Nothing)
+* [2018前端发展方向](./Nothing/2018-front-end-development.md)
 
 ## [后端相关](./BackEnd/)
 * Linux下Apache服务器配置
