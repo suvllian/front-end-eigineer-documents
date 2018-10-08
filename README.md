@@ -40,7 +40,6 @@
 
 ## [理论知识](./Theory/)
 * [前端缓存机制](./Theory/storage.md)
-* [前端性能优化](./Theory/optimise.md)
 * [前端跨域](./Theory/cross-domain.md)
 * [前端安全](./Theory/security.md)
 * [前端工程化](./Theory/Engineering/)
