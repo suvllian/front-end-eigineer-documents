@@ -1,3 +1,3 @@
-# Javascript知识点整理
+## Javascript
 
-## [this对象](./this-object.md)
+* [写出更好的Javascript条件语句的小技巧](./write-better-conditional-statement.md)

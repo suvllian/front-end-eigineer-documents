@@ -32,7 +32,7 @@ app.listen(3000);
 ```
 
 ### 一、application.js
-在上面的基础示例中，做了三件事：初始化Koa对象；添加中间件；创建HTTP服务器，这也是`application.js`中主要做的事情。
+在上面的基础示例中，框架做了三件事：**初始化Koa对象；添加中间件；创建HTTP服务器**，这也是`application.js`中主要做的事情。
 
 #### app.use(...)
 
