@@ -15,9 +15,11 @@
 上面是Koa框架的源码结构，核心代码就是lib目录下的四个文件。
 
 * application.js：Koa入口文件，核心的中间件处理流程
-* context.js：处理应用上下文
-* request.js：处理http请求
-* response.js：处理http响应
+* context.js：应用上下文；处理Cookie，错误处理onerror函数
+* request.js：处理http请求，包括获取http请求的`header、body、host、url、query、method`等信息
+* response.js：处理http响应，包括设置http请求的`header、body、status、message、type、eTag、lastModified`等信息
+
+下面主要分析`application.js`，`context.js`、`request.js`和`response.js`的内容比较简单，此处不作分析。
 
 ### Basic usage
 ``` javascript
@@ -31,7 +33,6 @@ app.use(async ctx => {
 app.listen(3000);
 ```
 
-### 一、application.js
 在上面的基础示例中，框架做了三件事：**初始化Koa对象；添加中间件；创建HTTP服务器**，这也是`application.js`中主要做的事情。
 
 #### app.use(...)
