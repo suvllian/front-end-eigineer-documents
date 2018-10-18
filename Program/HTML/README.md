@@ -1,9 +1,5 @@
 # HTML知识点整理
 
-* [HTML相关文章收集](./articles.md)
-* [HTML学习网站](./websites.md)
-* [HTML书籍推荐](./books.md)
-
 ## 1、移动Web前端viewport解析
 
 | name | value | description |
