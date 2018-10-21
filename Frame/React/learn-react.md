@@ -5,7 +5,7 @@ React是Facebook的2013年推出的开源项目，是一个前端MVC框架，准
 ### 二、初始化一个React项目
 学任何一门语言和框架，往往是从hello world开始，不过只展示一句hello world就没有体现出React的优点，所以现在尝试写一个有交互Demo开始学习React。
 
-### Example1[源码地址](./example1)
+### Example1[源码地址](https://github.com/suvllian/learning/tree/master/React/counter)
 
 这个Demo是一个计数器，每次点击按钮计数加1。  
 
@@ -186,4 +186,4 @@ JSX中的事件处理函数都使用了事件委托的方式进行处理，无�
 
 
 ### 五、总结 
-第0节课：《了解React》。通过一个实例简单的介绍一下React，了解React的优点和以往的开发模式的区别。
+通过一个实例简单的介绍一下React，了解React的优点和以往的开发模式的区别。

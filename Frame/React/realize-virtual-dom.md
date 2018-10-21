@@ -101,7 +101,7 @@ let ulRoot = ul.render();
 document.body.appendChild(ulRoot);
 ```
 
-完整示例代码：[链接](./example1/index.html)
+完整示例代码：[链接](https://github.com/suvllian/learning/blob/master/React/realize-virtual-dom/index.html)
 
 ### 三、总结
 
