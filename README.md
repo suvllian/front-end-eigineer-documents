@@ -14,7 +14,7 @@
 * PHP
 * C++
 
-## [类库框架](./Frame)
+## [框架和类库](./Frame)
 * 工具库
   * jQuery
   * Axios
@@ -71,6 +71,9 @@
 * [版本管理](./Tools/Version)
   * git/github
   * svn
+
+## [新技术/方向](./New)
+* [webAssembly](./New/webAssembly.md)
 
 ## [前端杂谈](./Nothing)
 * [2018前端发展方向](./Nothing/2018-front-end-development.md)
