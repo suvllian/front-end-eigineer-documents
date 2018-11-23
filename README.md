@@ -20,6 +20,7 @@
   * Axios
   * requirejs
   * seajs
+  * lodash
 
 * 前端框架
   * [React](./Frame/React/)
@@ -36,7 +37,7 @@
 
 * Node框架
   * Express
-  * [koa](./Frame/Koa)
+  * [koa](./Frame/koa)
 
 ## [理论知识](./Theory/)
 * [前端缓存机制](./Theory/storage.md)
@@ -73,7 +74,7 @@
   * svn
 
 ## [新技术/方向](./New)
-* [webAssembly](./New/webAssembly.md)
+* [webAssembly](./New/webAssembly/)
 
 ## [前端杂谈](./Nothing)
 * [2018前端发展方向](./Nothing/2018-front-end-development.md)

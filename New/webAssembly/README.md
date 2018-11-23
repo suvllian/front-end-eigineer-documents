@@ -1,5 +1,8 @@
 ## WebAssembly
 
+### 个人总结
+* [webAssembly初识](./introduction.md)
+
 ### 文档
 * [WebAssembly官网](https://webassembly.org/)
 * [中文官网](http://webassembly.org.cn/)
