@@ -43,11 +43,12 @@
 * [前端缓存机制](./Theory/storage.md)
 * [前端跨域](./Theory/cross-domain.md)
 * [前端安全](./Theory/security.md)
-* [前端工程化](./Theory/Engineering/)
+* [前端工程化](./Theory/engineering/)
 * 函数式编程
 * MVC/MVVM/MVP设计模式
 * 前端模块化
 * PWA/WebAssembly/GraphQL
+* [微前端](./Theory/micro-frontend/)
 
 ## [开发工具](./Tools)
 * 构建工具
