@@ -47,8 +47,6 @@
 * 函数式编程
 * MVC/MVVM/MVP设计模式
 * 前端模块化
-* PWA/WebAssembly/GraphQL
-* [微前端](./Theory/micro-frontend/)
 
 ## [开发工具](./Tools)
 * 构建工具
@@ -76,6 +74,9 @@
 
 ## [新技术/方向](./New)
 * [webAssembly](./New/webAssembly/)
+* [微前端](./New/micro-frontend/)
+* PWA
+* GraphQl
 
 ## [前端杂谈](./Nothing)
 * [2018前端发展方向](./Nothing/2018-front-end-development.md)
