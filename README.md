@@ -68,6 +68,9 @@
   * webstorm
   * vscode
 
+* [浏览器](./Tools/browser)
+  * [开发chrome插件](./Tools/browser/develop-a-chrome-extension.md)
+
 * [版本管理](./Tools/Version)
   * git/github
   * svn
