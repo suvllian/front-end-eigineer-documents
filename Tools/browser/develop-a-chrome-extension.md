@@ -12,7 +12,7 @@
 
 `manifest.json`是插件的入口文件，其中会涵盖扩展程序的基本信息，并指明需要的权限和资源文件。
 
-``` json
+``` javascript
 
 {
   "manifest_version": 2, // 必须为2，1号版本已弃用
