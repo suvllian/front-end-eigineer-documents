@@ -1,6 +1,6 @@
 ## 开发chrome插件
 
-### 相关资料
+### 一、相关资料
 
 * 文档
 	* [chrome插件官方文档](https://developer.chrome.com/extensions)
@@ -8,7 +8,7 @@
 * 参考文章
 	* [Chrome扩展程序开发](https://segmentfault.com/a/1190000007182038#articleHeader5)
 
-### 个人理解
+### 二、个人总结
 
 `manifest.json`是插件的入口文件，其中会涵盖扩展程序的基本信息，并指明需要的权限和资源文件。
 
@@ -75,7 +75,7 @@
 
 * 推荐将`background`中的`persistent`设置为`false`，根据事件来运行后台js
 
-### 问题
+### 三、问题
 #### 在插件中获取页面window对象中的数据
 
 chrome插件的content scripts中不能直接获取页面的window对象，但是可以操作页面的document对象，所以可以通过跨域通信的方式去解决这个问题。
