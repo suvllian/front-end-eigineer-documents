@@ -17,7 +17,7 @@ JavaScript创建于1995年，起初运行性能并不快。
 后来，人们开始关注性能。2008年，浏览器引入JIT(just-in-time)，JS执行性能快了10倍。随着性能的提升，JS开始应用于一些其他事情，例如用Node进行服务端编程。
 
 随着WebAssembly的发展，我们可能正处于另一个拐点。
-![performance history](https://intranetproxy.alipay.com/skylark/lark/0/2019/png/50194/1547707047464-3ac87c71-1c48-43e5-b3eb-8cca308d37f2.png) 
+![performance history](./../imgs/performance-history.png) 
 
 ### 三、How JavaScript is run in the browser
 JS引擎将js编译成机器码。电影：《降临》
