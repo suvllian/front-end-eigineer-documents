@@ -79,7 +79,7 @@
 * [webAssembly](./New/webAssembly/)
 * [微前端](./New/micro-frontend/)
 * PWA
-* GraphQl
+* GraphQL
 
 ## [前端杂谈](./Nothing)
 * [2018前端发展方向](./Nothing/2018-front-end-development.md)
