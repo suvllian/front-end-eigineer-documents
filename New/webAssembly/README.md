@@ -2,7 +2,8 @@
 
 ### 个人总结
 * [webAssembly简介及JIT入门](./prior-knowledge.md)
-* [深入了解和使用webAssembly](./introduction.md)
+* [了解汇编](./assembly.md)
+* [使用webAssembly](./introduction.md)
 
 ### 文档
 * [WebAssembly官网](https://webassembly.org/)

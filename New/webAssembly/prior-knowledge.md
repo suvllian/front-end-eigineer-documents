@@ -1,13 +1,16 @@
 ## webAssembly
+
 在了解webAssembly之前，思考下面的这些问题，带着这些问题继续深入了解。
 
 * webassembly是什么？
-* 实现原理？
+* webassembly解决了什么问题？
 * 如何使用？
 * 应用及前景
 * 有哪些优缺点？
+* 实现原理？
 
 ### 一、what is WebAssembly？
+
 WebAssembly是一种用JavaScript以外其他编程语言编写代码，并在浏览器中运行该代码的方法。
 WebAssembly实际上是一种字节码标准，可以快速装载运行，所以运行速度相对于JS解释执行大大提升。
 
