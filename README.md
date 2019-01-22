@@ -1,10 +1,10 @@
 ## 前端知识体系（zh-ch）
 
 ### 编程开发
-* [HTML/HTML5](./Program/HTML/)
-* [CSS/CSS3/Sass/Less](./Program/CSS)
-* [Javascript](./Program/Javascript)
-* [ECMAscript5/ECMAscript6](./Program/ECMAScript)
+* [HTML/HTML5](./program/HTML/)
+* [CSS/CSS3/Sass/Less](./program/CSS)
+* [Javascript](./program/Javascript)
+* [ECMAscript5/ECMAscript6](./program/ECMAScript)
 * TypeScript
 * Node.js
 * Java
