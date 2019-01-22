@@ -22,7 +22,7 @@
   * lodash
 
 * 前端框架
-  * [React](./Frame/React/)
+  * [React](./frame/React/)
   * Vue
   * Angularjs
 
@@ -32,17 +32,18 @@
 * 移动端
   * React Native
   * Weex
-  * [小程序](./Frame/wechat-mini-program)
+  * [小程序](./frame/wechat-mini-program)
 
 * Node框架
   * Express
-  * [koa](./Frame/koa)
+  * [koa](./frame/koa)
 
 ### 理论知识
-* [前端缓存机制](./Theory/storage.md)
-* [前端跨域](./Theory/cross-domain.md)
-* [前端安全](./Theory/security.md)
-* [前端工程化](./Theory/engineering/)
+* [JavaScript工作原理](./theory/javascript-work-principle/)
+* [前端缓存机制](./theory/storage.md)
+* [前端跨域](./theory/cross-domain.md)
+* [前端安全](./theory/security.md)
+* [前端工程化](./theory/engineering/)
 * 函数式编程
 * MVC/MVVM/MVP设计模式
 * 前端模块化
@@ -68,20 +69,17 @@
   * vscode
 
 * 浏览器
-  * [开发chrome插件](./Tools/browser/develop-a-chrome-extension.md)
+  * [开发chrome插件](./tools/browser/develop-a-chrome-extension.md)
 
-* [版本管理](./Tools/Version)
-  * git/github
+* 版本管理
+  * [git/github](./tools/git/)
   * svn
 
 ### 新技术/方向
-* [webAssembly](./New/webAssembly/)
-* [微前端](./New/micro-frontend/)
+* [webAssembly](./new/webAssembly/)
+* [微前端](./new/micro-frontend/)
 * PWA
 * GraphQL
 
-### 前端杂谈
-* [2018前端发展方向](./Nothing/2018-front-end-development.md)
-
 ### 后端相关
-* [Linux下Apache服务器配置](./BackEnd/linux-apache.md)
+* [Linux下Apache服务器配置](./backend/linux-apache.md)
