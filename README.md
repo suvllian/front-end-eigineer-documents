@@ -22,7 +22,7 @@
   * lodash
 
 * 前端框架
-  * [React](./frame/React/)
+  * [React](./frame/react/)
   * Vue
   * Angularjs
 

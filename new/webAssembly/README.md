@@ -33,6 +33,7 @@
 * [webAssembly初探1](http://blog.leanote.com/post/duanyiyi/webAssembly%E5%88%9D%E6%8E%A21-2)
 * [webAssembly初探2](http://blog.leanote.com/post/duanyiyi/8378880ec647)
 * [体验WebAssembly](https://juejin.im/post/5bd05652f265da0ab41e9838?utm_source=gold_browser_extension)
+* [14 行 JavaScript 教你使用 WebAssembly](https://www.infoq.cn/article/2018%2F05%2F14-JavaScript-WebAssembly)
 
 
 ### 相关依赖配置文档
