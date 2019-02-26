@@ -1,6 +1,6 @@
-### Git 提交
+## Git 提交操作
 
-#### 提交所有变化
+### 提交所有变化
 
 ```
 git add .
@@ -10,7 +10,7 @@ git commit -m'commit message'
 git push
 ```
 
-#### 提交指定文件
+### 提交指定文件
 
 ```
 git status
