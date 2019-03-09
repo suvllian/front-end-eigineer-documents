@@ -28,7 +28,7 @@ console.log('永远不会执行');
   console.log('还是会执行');
 </script>
 ```
-<img src="https://intranetproxy.alipay.com/skylark/lark/0/2019/png/50194/1552097146454-b8dd6d5a-96ee-4efe-a93b-2b4d6a8b9bf1.png" width="400" />
+<img src="./imgs/1.png" width="400" />
 
 
 ### 为什么要做异常监控？
@@ -39,7 +39,7 @@ console.log('永远不会执行');
 
 前端异常监控系统主要包括：异常信息采集、异常上报、异常分析、异常报警等主要功能。
 
-<img src="https://intranetproxy.alipay.com/skylark/lark/0/2019/png/50194/1552137514848-8dfc734e-aca3-49af-a3d5-b9c55f41fd86.png" width="400" />
+<img src="./imgs/2.png" width="400" />
 
 搭建前端异常监控系统是一个复杂的工作，需要考虑很多细节，下面列举了几个关键问题作为参考。
 
@@ -79,7 +79,7 @@ window.onerror = function (msg, url, row, col, error) {
 };
 error
 ```
-<img src="https://intranetproxy.alipay.com/skylark/lark/0/2019/png/50194/1552098143844-b6fb1527-d44a-40f5-8bfb-ac3fe7891936.png" width="400" />
+<img src="./imgs/3.png" width="400" />
 
 **运行时异步错误**
 
@@ -95,7 +95,7 @@ setTimeout(() => {
   error;
 });
 ```
-<img src="https://intranetproxy.alipay.com/skylark/lark/0/2019/png/50194/1552098193157-521a9dee-b06a-408c-852f-6e88455445e5.png" width="400" />
+<img src="./imgs/4.png" width="400" />
 
 **捕获阶段监听网络错误**
 
@@ -111,7 +111,7 @@ setTimeout(() => {
 </script>
 <img src="./404.png" alt="">
 ```
-<img src="https://intranetproxy.alipay.com/skylark/lark/0/2019/png/50194/1552098512555-9f18991b-111e-48c0-ad17-fbac42b75a5b.png" width="400" />
+<img src="./imgs/5.png" width="400" />
 
 ##### 2. try catch
 
@@ -130,7 +130,7 @@ try {
   console.log(e);
 }
 ```
-<img src="https://intranetproxy.alipay.com/skylark/lark/0/2019/png/50194/1552097599161-697725de-efd6-4079-9f9e-2c18d385e437.png" width="400" />
+<img src="./imgs/6.png" width="400" />
 
 **语法错误**
 ```
@@ -141,7 +141,7 @@ try {
   console.log(e);
 }
 ```
-<img src="https://intranetproxy.alipay.com/skylark/lark/0/2019/png/50194/1552097676333-4b5e0c0f-7d13-4a4c-8dca-8ec99e3d3797.png" width="400" />
+<img src="./imgs/7.png" width="400" />
 
 **异步错误**
 
@@ -155,7 +155,7 @@ try {
   console.log(e);
 }
 ```
-<img src="https://intranetproxy.alipay.com/skylark/lark/0/2019/png/50194/1552097785286-e64c0a92-97cd-4279-915e-ac19f28dee56.png" width="400" />
+<img src="./imgs/8.png" width="400" />
 
 框架的异常捕获
 
@@ -180,7 +180,7 @@ const somePromise = new Promise(_ => {
 
 somePromise.then(console.log)
 ```
-<img src="https://intranetproxy.alipay.com/skylark/lark/0/2019/png/50194/1552098894761-1d35ae47-0017-4537-8027-956161578273.png" width="400" />
+<img src="./imgs/9.png" width="400" />
 
 ##### 4. 扩展异步接口
 
