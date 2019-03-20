@@ -4,12 +4,12 @@
 * [webAssembly简介及JIT入门](./prior-knowledge.md)
 * [了解汇编](./assembly.md)
 * [使用webAssembly](./introduction.md)
+* [Presentation](./presentation.md)
 
 ### Demo
 * [Basic Usage](https://github.com/suvllian/learning/tree/master/JavaScript/advance/WebAssembly)
 * [坦克大战](https://webassembly.org/demo/Tanks/)
-* [Web版windows虚拟机](https://bellard.org/jslinux/vm.html?url=https://bellard.org/jslinux/
-win2k.cfg&mem=192&graphic=1&w=1024&h=768)
+* [Web版windows虚拟机](https://bellard.org/jslinux/vm.html?url=https://bellard.org/jslinux/win2k.cfg&mem=192&graphic=1&w=1024&h=768)
 
 ### 文档
 * [WebAssembly官网](https://webassembly.org/)
