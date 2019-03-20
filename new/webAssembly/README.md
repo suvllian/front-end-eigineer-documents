@@ -5,10 +5,17 @@
 * [了解汇编](./assembly.md)
 * [使用webAssembly](./introduction.md)
 
+### Demo
+* [Basic Usage](https://github.com/suvllian/learning/tree/master/JavaScript/advance/WebAssembly)
+* [坦克大战](https://webassembly.org/demo/Tanks/)
+* [Web版windows虚拟机](https://bellard.org/jslinux/vm.html?url=https://bellard.org/jslinux/
+win2k.cfg&mem=192&graphic=1&w=1024&h=768)
+
 ### 文档
 * [WebAssembly官网](https://webassembly.org/)
-* [中文官网](http://webassembly.org.cn/)
-* [WebAssembly 现状与实战](https://www.ibm.com/developerworks/cn/web/wa-lo-webassembly-status-and-reality/index.html)
+* [WebAssembly中文官网](http://webassembly.org.cn/)
+* [MDN文档](https://developer.mozilla.org/zh-CN/docs/WebAssembly/Concepts)
+* [WebAssembly现状与实战](https://www.ibm.com/developerworks/cn/web/wa-lo-webassembly-status-and-reality/index.html)
 
 ### 系列文章
 
@@ -33,7 +40,8 @@
 * [webAssembly初探1](http://blog.leanote.com/post/duanyiyi/webAssembly%E5%88%9D%E6%8E%A21-2)
 * [webAssembly初探2](http://blog.leanote.com/post/duanyiyi/8378880ec647)
 * [体验WebAssembly](https://juejin.im/post/5bd05652f265da0ab41e9838?utm_source=gold_browser_extension)
-* [14 行 JavaScript 教你使用 WebAssembly](https://www.infoq.cn/article/2018%2F05%2F14-JavaScript-WebAssembly)
+* [14行JavaScript教你使用WebAssembly](https://www.infoq.cn/article/2018%2F05%2F14-JavaScript-WebAssembly)
+* [支付宝小程序虚拟DOM计算优化](https://www.infoq.cn/article/ullETz7q_Ue4dUptKgKC)
 
 
 ### 相关依赖配置文档
