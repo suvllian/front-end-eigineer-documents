@@ -6,7 +6,7 @@
 	* [chrome插件官方文档](https://developer.chrome.com/extensions)
 	* [中文文档](https://crxdoc-zh.appspot.com/extensions/getstarted)
 * 参考文章
-	* [Chrome扩展程序开发](https://segmentfault.com/a/1190000007182038#articleHeader5)
+	* [Chrome扩展程序开发](https://segmentfault.com/a/1190000007182038)
 
 ### 二、个人总结
 
