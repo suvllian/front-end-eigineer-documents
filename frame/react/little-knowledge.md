@@ -33,3 +33,39 @@ class Child extends React.Component {
     }
 }
 ```
+
+### 2. 在页面其他DOM元素或者其他react组件加载完成之后再挂载某一个react组件
+
+因为某一个react组件的挂载依赖前置react组件中的DOM节点，所以需要等其他react组件挂载到真实DOM之后再去挂载
+
+#### 方法一
+
+通过监听DOM的加载事件，加载完成之后再去挂载react组件
+
+``` javascript
+let reactRoot = null
+const timeHandle = setInterval(() => {
+  reactRoot = document.getElementById('__react_content')
+
+  if (!!reactRoot) {
+    clearInterval(timeHandle)
+    const root = document.createElement('div')
+    reactRoot.parentNode.appendChild(root)
+
+    render(
+      <App />,
+      root
+    )
+
+  }
+}, 1000)
+
+if (document.readyState === 'complete') {
+    ReactDOM.render(<App />, document.getElementById('__react_content'))
+} else {
+    document.addEventListener('DOMContentLoaded', () => {
+    ReactDOM.render(<App />, document.getElementById('__react_content'))
+    }, false)
+}
+```
+

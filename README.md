@@ -45,10 +45,10 @@
 * [前端缓存机制](./theory/storage.md)
 * [前端跨域](./theory/cross-domain.md)
 * [前端安全](./theory/security.md)
+* [前端模块化](./theory/modules/)
 * [前端工程化](./theory/engineering/)：工具、框架、流程、部署、性能、监控
 * 函数式编程
 * MVC/MVVM/MVP设计模式
-* 前端模块化
 
 ### 开发工具
 * 构建工具
