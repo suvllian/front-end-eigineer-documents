@@ -5,7 +5,7 @@
 * [CSS/CSS3/Sass/Less](./program/CSS)
 * [Javascript](./program/Javascript)
 * [ECMAscript5/ECMAscript6](./program/ECMAScript)
-* TypeScript
+* [TypeScript](./program/TypeScript)
 * Node.js
 * Java
 * [Python](https://github.com/suvllian/python)
