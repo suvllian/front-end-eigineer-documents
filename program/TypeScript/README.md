@@ -1,5 +1,9 @@
 ## TypeScript
 
+### 个人总结
+* [面试题](./interview.md)
+
+
 ### Demo
 * [Basic Usage](https://github.com/suvllian/learning/tree/master/TypeScript/basic-usage)
 
