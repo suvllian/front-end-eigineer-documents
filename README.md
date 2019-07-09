@@ -80,7 +80,7 @@
 ### 新技术/方向
 * [webAssembly](./new/webAssembly/)
 * [微前端](./new/micro-frontend/)
-* PWA
+* [PWA](./new/pwa/)
 * GraphQL
 
 ### 后端相关
