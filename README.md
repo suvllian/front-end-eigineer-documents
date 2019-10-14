@@ -22,23 +22,27 @@
   * lodash
 
 * 前端框架
-  * [React](./frame/react/)
-    * [Redux](./frame/redux/)
-    * [dva](./frame/dva/)
+  * React全家桶
+    * React
+    * React-router
+    * Redux
+    * dva
   * Vue
   * Angularjs
 
 * UI框架
   * Bootstrap
 
-* 移动端
+* 跨端开发
   * React Native
+  * flutter
   * Weex
-  * [小程序](./frame/wechat-mini-program)
+  * 微信小程序
 
 * Node框架
   * Express
-  * [koa](./frame/koa)
+  * Koa
+  * Egg
 
 ### 理论知识
 * [JavaScript工作原理](./theory/javascript-work-principle/)

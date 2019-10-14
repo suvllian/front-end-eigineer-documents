@@ -5,6 +5,7 @@
 * [设计一个React组件](./design-react-component.md)
 * [实现一个简单的虚拟DOM](./realize-virtual-dom.md)  
 * [React组件的性能优化](./optimize-performance.md)
+* [React事件机制](./react-event.md)
 
 ### 服务端渲染框架
 * [Next.js](https://nextjs.org/)
