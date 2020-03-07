@@ -22,9 +22,9 @@
   * lodash
 
 * 前端框架
-  * React全家桶
+  * react全家桶
     * [react](./frame/front-frame/react)
-    * React-router
+    * react-router
     * [redux](./frame/front-frame/redux)
     * dva
   * Vue
@@ -34,7 +34,7 @@
   * Bootstrap
 
 * 跨端开发
-  * React Native
+  * react Native
   * flutter
   * Weex
   * 微信小程序
@@ -50,16 +50,17 @@
 * [前端跨域](./theory/cross-domain.md)
 * [前端安全](./theory/security.md)
 * [前端模块化](./theory/modules/)
-* [前端工程化](./theory/engineering/)：工具、框架、流程、部署、性能、监控
+* [前端工程化](./theory/engineering/)：工具、框架、流程、构建、部署、性能、监控
 * 函数式编程
-* MVC/MVVM/MVP设计模式
+* [设计模式]：MVC/MVVM/MVP
 
 ### 开发工具
 * 构建工具
-  * Webpack
-  * Grunt
-  * Gulp
-  * [npm](./tools/npm)/yarn
+  * [webpack](./tools/webpack)
+  * grunt
+  * gulp
+  * [npm](./tools/npm)
+  * yarn
 
 * 测试工具
   * mocha

@@ -34,6 +34,7 @@ NodeJs快速发展，开发出了许多工具提升前端开发效率。
 * [工具](./tools.md)
 * [框架](#)
 * [流程](./flow.md)
+* [构建](./build.md)
 * [部署](./deploy.md)
 * [性能](./optimize.md)
 * 监控
