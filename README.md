@@ -1,6 +1,6 @@
-## 前端知识体系（zh-ch）
+# 前端知识体系（zh-ch）
 
-### 编程开发
+## 编程开发
 * [HTML/HTML5](./program/HTML/)
 * [CSS/CSS3/Sass/Less](./program/CSS)
 * [Javascript](./program/Javascript)
@@ -13,38 +13,38 @@
 * PHP
 * C++
 
-### 框架和类库
-* 工具库
+## 框架和类库
+### 工具库
   * jQuery
   * Axios
   * requirejs
   * seajs
   * lodash
 
-* 前端框架
-  * react全家桶
-    * [react](./frame/front-frame/react)
-    * react-router
-    * [redux](./frame/front-frame/redux)
-    * dva
-  * Vue
-  * Angularjs
+### 前端框架
+* react
+  * [React](./frame/front-frame/react)
+  * react-router
+  * [Redux](./frame/front-frame/redux)
+  * dva
+* Vue
+* Angularjs
 
-* UI框架
+### UI框架
   * Bootstrap
 
-* 跨端开发
+### 跨端开发
   * react Native
   * flutter
   * Weex
   * 微信小程序
 
-* Node框架
+### Node框架
   * Express
   * [koa](./frame/node/koa)
   * Egg
 
-### 理论知识
+## 理论知识
 * [JavaScript工作原理](./theory/javascript-work-principle/)
 * [前端缓存机制](./theory/storage.md)
 * [前端跨域](./theory/cross-domain.md)
@@ -54,7 +54,7 @@
 * 函数式编程
 * [设计模式]：MVC/MVVM/MVP
 
-### 开发工具
+## 前端开发工具
 * 构建工具
   * [webpack](./tools/webpack)
   * grunt
@@ -63,24 +63,18 @@
   * yarn
 
 * 测试工具
+  * Puppeteer
+  * Jest
   * mocha
 
 * 调试工具
   * firebug
   * chrome debugger
 
-* 编辑器
-  * sublime  
-  * atom
-  * webstorm
-  * vscode
-
 * 浏览器
   * [开发chrome插件](./tools/browser/develop-a-chrome-extension.md)
 
-* 版本管理
-  * [git/github](./tools/git/)
-  * svn
+更多开发工具请前往[开发工具](https://github.com/suvllian/computer-science-knowledge#rocket-%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7)查看
 
 ### 新技术/方向
 * [webAssembly](./new/webAssembly/)
