@@ -76,11 +76,13 @@
 
 更多开发工具请前往[开发工具](https://github.com/suvllian/computer-science-knowledge#rocket-%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7)查看
 
-### 新技术/方向
+## 新技术/方向
 * [webAssembly](./new/webAssembly/)
 * [微前端](./new/micro-frontend/)
 * [PWA](./new/pwa/)
 * GraphQL
 
-### 后端相关
-* [Linux下Apache服务器配置](./backend/linux-apache.md)
+## 内容收藏
+* [历年JavaScript明星项目](https://risingstars.js.org/2019/zh/)
+
+更多内容请前往[计算机基础知识](https://github.com/suvllian/computer-science-knowledge)查看
