@@ -2,7 +2,7 @@
 
 ### 个人总结
 
-* [利用webpack external优化打包](./optimize-bundle-by-external.md)
+* [webpack优化打包](./optimize-compile.md)
 
 ### 官方文档
 
