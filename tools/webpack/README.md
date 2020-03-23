@@ -1,6 +1,7 @@
 ## webpack
 ### 基本介绍
 * [webpack基础概念](./elementary-concepts.md)
+* [webpack配置](./webpack-config.md)
 
 ### 个人总结
 
