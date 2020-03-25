@@ -7,6 +7,7 @@
 * [React组件的性能优化](./optimize-performance.md)
 * [React事件机制](./react-event.md)
 * [如何在浏览器端直接引用UMD方式打包的react组件？](./how-use-umd-react-in-browser.md)
+* [在父组件中调用自组件方法](./use-child-function.md)
 
 ### 服务端渲染框架
 * [Next.js](https://nextjs.org/)
