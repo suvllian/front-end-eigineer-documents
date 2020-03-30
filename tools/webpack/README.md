@@ -3,6 +3,7 @@
 * [webpack基础概念](./elementary-concepts.md)
 * [webpack配置](./webpack-config.md)
 * [webpack指南](./webapck-guide.md)
+* [webpack进阶用法](./advanced-usage.md)
 
 ### 个人总结
 
