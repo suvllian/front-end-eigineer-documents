@@ -21,3 +21,12 @@ window.onbeforeunload = function () {
 * 隐式转换
   * a - 0
   * +a
+
+### 3、Chrome Failed to load response data
+* 上一个页面的请求，无法正常查看。
+* 请求一个很大的 JSON 数据，导致错误。
+* 跨域请求。
+
+**参考：**  
+
+* [Chrome Failed to load response data](https://github.com/XXHolic/segment/issues/30)
