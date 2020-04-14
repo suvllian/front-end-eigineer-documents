@@ -41,3 +41,19 @@
 * [官方文档-externals](https://www.webpackjs.com/configuration/externals/)
 * [webpack externals 深入理解](https://segmentfault.com/a/1190000012113011?utm_source=tag-newest)
 * [webpack打包优化之外部扩展externals的实际应用](https://www.cnblogs.com/weiqinl/p/10020773.html)
+
+
+### 2.2 实现按需加载
+以antd组件为例，通常有两种方式实现按需加载。
+
+**分别引入组件对应的js和css**。  
+该方法的优点是简单，不需要配置，直接加载即可。但是每次载入一个新的组件都会引入冗余代码。
+
+``` jsx
+import Button from 'antd/lib/button';
+import 'antd/lib/button/style';
+```
+
+**使用babel-plugin-import按需加载**
+
+使用这个插件之后仍然可以用`import { Button } from 'antd';`来引入组件，插件会帮你转换成`antd/lib/xxx`的写法。另外此插件配合 style 属性可以做到模块样式的按需自动加载。
