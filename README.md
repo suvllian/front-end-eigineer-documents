@@ -82,6 +82,9 @@
 * [PWA](./new/pwa/)
 * GraphQL
 
+## 文章总结
+* [如何给网站添加水印？](./summary/watermark.md)
+
 ## 内容收藏
 * [历年JavaScript明星项目](https://risingstars.js.org/2019/zh/)
 
