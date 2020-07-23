@@ -42,7 +42,8 @@
 ### Node框架
   * Express
   * [koa](./frame/node/koa)
-  * Egg
+  * [Egg](./frame/node/egg)
+  * [Midway](./frmae/node/midway)
 
 ## 理论知识
 * [JavaScript工作原理](./theory/javascript-work-principle/)
@@ -51,7 +52,7 @@
 * [前端安全](./theory/security.md)
 * [前端模块化](./theory/modules/)
 * [前端工程化](./theory/engineering/)：工具、框架、流程、构建、部署、性能、监控
-* 函数式编程
+* [函数式编程](./theory/functional-programming/README.md)
 * [设计模式]：MVC/MVVM/MVP
 
 ## 前端开发工具
@@ -82,8 +83,9 @@
 * [PWA](./new/pwa/)
 * GraphQL
 
-## 文章总结
+## 常见问题及文章总结
 * [如何给网站添加水印？](./summary/watermark.md)
+* [CSS样式污染](https://www.zoo.team/article/react-css)
 
 ## 内容收藏
 * [历年JavaScript明星项目](https://risingstars.js.org/2019/zh/)
