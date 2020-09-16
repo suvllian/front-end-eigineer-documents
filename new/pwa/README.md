@@ -1,7 +1,8 @@
 ## Service Worker
 
 ### 个人总结
-* [基础入门](./service-worker-introduction.md)
+* [Service Worker基础入门](./service-worker-introduction.md)
+* [Workbox](./workbox-introduction.md)
 
 ### Demo
 * [最简Demo](https://github.com/suvllian/learning/tree/master/JavaScript/advance/pwa/service-worker)
