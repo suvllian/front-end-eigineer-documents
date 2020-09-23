@@ -86,6 +86,7 @@
 ## 常见问题及文章总结
 * [如何给网站添加水印？](./summary/watermark.md)
 * [CSS样式污染](https://www.zoo.team/article/react-css)
+* [不同浏览器窗口间通信](./summary/different-window-channel.md)
 
 ## 内容收藏
 * [历年JavaScript明星项目](https://risingstars.js.org/2019/zh/)
