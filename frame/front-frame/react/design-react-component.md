@@ -202,7 +202,21 @@ shouldComponentUpdate的参数是新的state和props，可以将新的state、pr
 
 * componentWillUnmount：可以在函数中进行一些清理工作。
 
-### 四、总结
+
+### 四、react16生命周期
+React16废弃的三个生命周期函数
+
+* componentWillMount
+* componentWillReceiveProps
+* componentWillUpdate
+
+新增生命周期函数
+
+* getDerivedStateFromProps
+* getSnapshotBeforeUpdate
+
+
+### 五、总结
 
 本节主要介绍了React组件的数据来源：state和props，还介绍了组件的生命周期，这些都是在开发React应用是肯定会用到的知识。    
 

@@ -43,3 +43,8 @@ CSS规定，每个元素都有默认的`display`值，例如`div标签`的`displ
 * 行内元素会在一条水平线上排列，其宽度随内容变化而变化。块级元素各占一行，垂直方向排列，块级元素默认宽度自动填满父元素。
 * 块级元素可以包含块级元素和行内元素，行内元素不能包含块级元素。
 * 行内元素设置`width`和`height`无效，设置`margin`和`padding`垂直方向无效，水平方向有效，可以设置`line-height`。
+
+**常见的行内元素和块级元素：**
+* 块级元素：div、p、h1~h6、ul、ol、dl、li、dd、table、hr、blockquote、address、table、menu、pre，HTML5新增的header、section、aside、footer等
+* 行内元素：span、a、strong、b、em、i、del、s、ins、u
+* 行内块元素(可设置宽高)：img、input、td

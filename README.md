@@ -1,6 +1,6 @@
 # 前端知识体系（zh-ch）
 
-## 编程开发
+## 编程基础
 * [HTML/HTML5](./program/HTML/)
 * [CSS/CSS3/Sass/Less](./program/CSS)
 * [Javascript](./program/Javascript)
@@ -24,7 +24,7 @@
 ### 前端框架
 * react
   * [React](./frame/front-frame/react)
-  * react-router
+  * [react-router](./frame/front-frame/react-router)
   * [Redux](./frame/front-frame/redux)
   * dva
 * Vue
@@ -47,6 +47,7 @@
 
 ## 理论知识
 * [JavaScript工作原理](./theory/javascript-work-principle/)
+* [前端必知的HTTP知识](./theory/frontend-http/)
 * [前端缓存机制](./theory/storage.md)
 * [前端跨域](./theory/cross-domain.md)
 * [前端安全](./theory/security.md)
