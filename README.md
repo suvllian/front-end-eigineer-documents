@@ -1,5 +1,7 @@
 # 前端知识体系（zh-ch）
 
+Github文档库更新慢，最新内容请关注语雀：[https://www.yuque.com/qingsong-cqkvm/uumwa8/zo2ncg](https://www.yuque.com/qingsong-cqkvm/uumwa8/zo2ncg)
+
 ## 编程基础
 * [HTML/HTML5](./program/HTML/)
 * [CSS/CSS3/Sass/Less](./program/CSS)
